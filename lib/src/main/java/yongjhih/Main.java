@@ -19,9 +19,10 @@ package yongjhih;
  **/
 public class Main {
     public static String func(int i) {
+        if (i <= 0) return String.valueOf(i);
+
         StringBuilder s = new StringBuilder();
         boolean b = false;
-        if (i <= 0) return String.valueOf(i);
 
         // Optimized by concation of String, DO NOT change condition order until you understood that.
         // TODO Optimization of mod by DP
