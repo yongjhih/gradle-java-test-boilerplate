@@ -7,7 +7,6 @@ buildscript {
 }
 
 apply plugin: 'java'
-
 repositories {
     jcenter()
 }
@@ -30,7 +29,11 @@ tasks.withType(Test) {
   }
 }
 
-task execute(type:JavaExec) {
-   main = 'yongjhih.Main'
-   classpath = sourceSets.main.runtimeClasspath
-}
+// apply plugin: 'application' instead
+//task execute(type:JavaExec) {
+//   main = 'yongjhih.Main'
+//   classpath = sourceSets.main.runtimeClasspath
+//}
+
+apply plugin: 'application'
+mainClassName = "yongjhih.Main"
