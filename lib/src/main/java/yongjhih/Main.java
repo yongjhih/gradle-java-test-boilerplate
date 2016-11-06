@@ -39,7 +39,7 @@ public class Main {
         return s.toString();
     }
 
-    public static void printFunc() {
+    public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             System.out.println(func(i));
         }
