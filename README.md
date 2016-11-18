@@ -1,8 +1,8 @@
-[![JitPack](https://img.shields.io/github/tag/yongjhih/gradle-java-test-boilerplate.svg?label=JitPack)](https://jitpack.io/#yongjhih/gradle-java-test-boilerplate)
-[![javadoc](https://img.shields.io/github/tag/yongjhih/gradle-java-test-boilerplate.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/gradle-java-test-boilerplate/-SNAPSHOT/javadoc/)
 [![Build Status](https://travis-ci.org/yongjhih/gradle-java-test-boilerplate.svg)](https://travis-ci.org/yongjhih/gradle-java-test-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/yongjhih/gradle-java-test-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/yongjhih/gradle-java-test-boilerplate?branch=master)
 <!--[![Codacy Badge](https://api.codacy.com/project/badge/Grade/64490a4beab54dcaa8f5b23022d607d5)](https://www.codacy.com/app/yongjhih/gradle-java-test-boilerplate)-->
+<!--[![JitPack](https://img.shields.io/github/tag/yongjhih/gradle-java-test-boilerplate.svg?label=JitPack)](https://jitpack.io/#yongjhih/gradle-java-test-boilerplate)-->
+<!--[![javadoc](https://img.shields.io/github/tag/yongjhih/gradle-java-test-boilerplate.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/gradle-java-test-boilerplate/-SNAPSHOT/javadoc/)-->
 
 # gradle-java-test-boilerplate
 
