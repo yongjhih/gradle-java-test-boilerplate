@@ -1,15 +1,20 @@
 buildscript {
     repositories {
         jcenter()
+        maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
+        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.6.3'
+        classpath "net.ltgt.gradle:gradle-errorprone-plugin:0.0.8"
     }
 }
 
-apply plugin: 'java'
 repositories {
     jcenter()
 }
+
+apply plugin: 'java'
+apply plugin: "net.ltgt.errorprone"
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -35,5 +40,8 @@ tasks.withType(Test) {
 //   classpath = sourceSets.main.runtimeClasspath
 //}
 
-apply plugin: 'application'
+apply from: 'javadoc.gradle'
+apply from: 'jacoco-coveralls.gradle'
+
+apply plugin: 'application' // for run
 mainClassName = "yongjhih.Main"
