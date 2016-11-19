@@ -30,7 +30,7 @@ public class MainTest {
     public void testBounds() {
         Main.func(Integer.MAX_VALUE);
         Main.func(Integer.MIN_VALUE);
-        // No exception throws
+        assertThat(true).isTrue(); // No exception throws
     }
 
     @Test public void testNegative() {
@@ -46,6 +46,6 @@ public class MainTest {
 
     @Test public void testPrint() {
         Main.main(null);
-        // No exception throws
+        assertThat(true).isTrue(); // No exception throws
     }
 }
