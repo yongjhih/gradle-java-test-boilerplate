@@ -16,9 +16,6 @@ repositories {
 apply plugin: 'java'
 apply plugin: "net.ltgt.errorprone"
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'

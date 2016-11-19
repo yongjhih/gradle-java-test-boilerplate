@@ -2,11 +2,12 @@ package yongjhih;
 
 /**
  *
+ * <pre>
  *	Print numbers from 1 to 100
  *
- *	if number is multiple of 5  -> replace the output with the word "fizz"
- *	if number is multiple of 3 -> replace the output with the word "buzz"
- *	if number is multiple of both -> replace the output with the word "fizzbuzz"
+ *	if number is multiple of 5  -&gt; replace the output with the word "fizz"
+ *	if number is multiple of 3 -&gt; replace the output with the word "buzz"
+ *	if number is multiple of both -&gt; replace the output with the word "fizzbuzz"
  *
  * Sample output:
  *	1
@@ -15,6 +16,7 @@ package yongjhih;
  *	4
  *	fizz
  * ...
+ * </pre>
  *
  **/
 public class Main {
