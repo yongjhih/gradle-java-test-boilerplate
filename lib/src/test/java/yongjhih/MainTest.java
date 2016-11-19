@@ -27,9 +27,10 @@ public class MainTest {
 
     @SuppressWarnings("CheckReturnValue")
     @Test
-    public void testBounds() { // No exception throws
+    public void testBounds() {
         Main.func(Integer.MAX_VALUE);
         Main.func(Integer.MIN_VALUE);
+        // No exception throws
     }
 
     @Test public void testNegative() {
@@ -37,5 +38,14 @@ public class MainTest {
         assertThat(Main.func(-3)).isEqualTo("-3");
         assertThat(Main.func(-5)).isEqualTo("-5");
         assertThat(Main.func(-15)).isEqualTo("-15");
+    }
+
+    @Test public void testNewMain() {
+        assertThat(new Main()).isNotNull();
+    }
+
+    @Test public void testPrint() {
+        Main.main(null);
+        // No exception throws
     }
 }
