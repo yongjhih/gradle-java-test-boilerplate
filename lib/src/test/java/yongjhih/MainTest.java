@@ -25,9 +25,11 @@ public class MainTest {
         assertThat(Main.func(0)).isEqualTo("0");
     }
 
-    @Test public void testBounds() { // No exception throws
-        assertThat(Main.func(Integer.MAX_VALUE));
-        assertThat(Main.func(Integer.MIN_VALUE));
+    @SuppressWarnings("CheckReturnValue")
+    @Test
+    public void testBounds() { // No exception throws
+        Main.func(Integer.MAX_VALUE);
+        Main.func(Integer.MIN_VALUE);
     }
 
     @Test public void testNegative() {
